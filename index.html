@@ -81,7 +81,7 @@
           <!-- ABOUT ME -->
           <div class="box">
             <h2>Qui suis-je ?</h2>
-            <p>Homme, 49 ans, 22 ans d'expérience professionnelle, plus de 16 ans dans le monde python. Toujours en recherche de nouvelles expériences, de nouveaux apprentissages (le dernier en date , le framework Vue.js) et surtout de nouveaux challenges. Je pense être bienveillant, ouvert, communiquant, respectueux, autonome et travailleur.</p>
+            <p>Homme, 54 ans, 26 ans d'expérience professionnelle, plus de 20 ans dans le monde python. Toujours en recherche de nouvelles expériences, de nouveaux apprentissages (le dernier en date , le développement assisté par l'IA) et surtout de nouveaux challenges. Je pense être bienveillant, ouvert, communiquant, respectueux, autonome et travailleur.</p>
           </div>
           <!-- EXPERIENCES -->
 
@@ -101,12 +101,14 @@
               </div>
               <div class="col-xs-9">
                 <div class="profession">Développeur Fullstack Python</div>
-                <div class="description">J'ai rejoint ipso santé afin de faire évoluer et de maintenir le site de prise de rendez-vous en ligne <a href="https://ipso.paris">ipso.paris</a>. J'ai aussi participé à de nombreux projets internes de la structure.<br/>
-                  Au départ, seul développeur, l'équipe s'est progressivement étoffée. Nous sommes maintenant quatre développeurs à temps plein en charge de tous les outils internet et intranet du groupe ipso santé.<br/>
-                  Ces outils s'appuient sur le framework Django. Les principaux travaux que j'ai mené sont:
+                <div class="description">J'ai rejoint ipso santé afin de faire évoluer et de maintenir le site de prise de rendez-vous en ligne <a href="https://ipsosante.fr">ipsosante.fr</a>. J'ai aussi participé à de nombreux projets internes de la structure.<br/>
+                  Au départ, seul développeur, l'équipe s'est progressivement étoffée. Nous sommes maintenant cinq développeurs à temps plein en charge de tous les outils internet et intranet du groupe ipso santé.<br/>
+                  Lead développeur, responsable technique du projet, j'essaie de trouver les meilleures architectures pour nos besoins. Je collabore activement aux décisions ux/ui et métiers.<br/> 
+                  Je participe aussi aux entretiens individuelles et aux processus d'embauche<br/>
+                  Ce projet s'appuie sur le framework Django/Tailwind/Vue.js. C'est un gros projet monolithe de santé de plus de 12 ans, avec 610k de lignes de code maison. Les principaux travaux que j'ai mené sont:
                   <ul>
                     <li>
-                      Mise en place des tests unitaires sur le projet, d'environnement de dev docker, de CI associé sur gitlab, des tests fonctionnels sélénium, programmation tdd pour les dev. refactoring de code, revue de code <small>(django, gitlab, docker, selenium)</small>.
+                      Mise en place des tests unitaires sur le projet (0 à mon arrivé, plus de 5000 aujourd'hui, +80% de couverture), d'environnement de dev docker, de CI associé sur gitlab, des tests fonctionnels sélénium, programmation tdd pour les dev. refactoring de code, revue de code <small>(django, pytest, gitlab, docker, selenium)</small>.
                     </li>
                     <li>
                       Amélioration des performances de la prise de rendez-vous patient <small>(design et élaboration de la solution, récriture de l'algo avec calcul asynchrone avec celery et cache évolué avec redis)</small>
@@ -117,9 +119,20 @@
                       Déploiement ansible, migration vers aws de tous les services <small>(infra aws, terraform, ansible, haproxy, nginx, supervisor, gunicorn, migration)</small>
                     </li>
                     <li>
-                      Refonte du site patient avec le framework Vue.js <small>(api rest, micro service, composant réutilisable, proxy cache avec varnish, esi, Node.js)</small>
+                      Refonte du site patient avec le framework Vue.js <small>(api rest, composant réutilisable, proxy cache avec varnish, esi, Node.js)</small>
                     </li>
-
+                    <li>
+                      Amélioration des performances des API clients (logiciels medecins, assistant médicaux) qui consomme une grosse API DRF (~200req/sec)<small>(haproxy, varnish, kibanna, zabbix, postgres, audit, profiling)</small> 
+                    </li>
+                    <li>
+                      Nombreux travaux d'interfacage sur les outils google : google workspace, calendrier, contacts, listes de diffusion<small>( google api, bigquery, celery, monitoring)</small>
+                    </li>
+                    <li>
+                      Dockerisation des environnements de beta/prod<small>(docker, CI, kubernetes, ansible, script shell)</small>
+                    </li>       
+                    <li>
+                      Mise en place de worflow de développement IA<small>(git worktree, skills, opencode)</small>
+                    </li>
                   </ul>
                 </div>
               </div>
